@@ -1,0 +1,31 @@
+/* h1{
+    color: aqua;
+} */
+
+h2{
+    color: cadetblue;
+}
+
+.one{
+    color: palevioletred;
+}
+
+#yup{
+    background-color:black;
+}
+
+#yuppp{
+    background-color: bisque;
+}
+
+a[href='https://www.google.com/']{
+    background-color: aqua;
+}
+
+a[href^='https']{
+    background-color: chocolate;
+}
+
+a[href*='flip']{
+    color: black;
+}
