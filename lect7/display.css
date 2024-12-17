@@ -1,0 +1,22 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+div{
+    background-color: rgb(54, 90, 129);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+     /* display: none;  */
+    /* visibility: hidden;      */
+}
+
+span{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    /* display: block; */
+    display: inline-block;
+}

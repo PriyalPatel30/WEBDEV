@@ -1,0 +1,23 @@
+/* div p{
+    color: peru;
+}
+
+ article p{
+    color: crimson;
+ } */
+
+ /* li:nth-of-type(3){
+    color: red;
+ } */
+
+div{
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+}
+
+div:hover{
+    background-color: blue;
+    border-radius: 50%;
+    transition: 3s;
+}
