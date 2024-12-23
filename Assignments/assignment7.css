@@ -1,0 +1,46 @@
+#body{
+    perspective: 900px;
+}
+
+#parent{
+    height: 300px;
+    width: 300px;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    margin:  100px auto;
+    /* background-color: red; */
+    /* flex-direction: column; */
+    position: relative;
+    transition: 3s;
+    transform-style: preserve-3d;
+    
+}
+
+
+#child1
+{
+    backface-visibility: hidden;
+}
+   
+
+#child1 img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+   
+}
+
+#child2{
+    height: 300px;
+    width: 300px;
+    background-color: coral;
+    position:  absolute;
+    
+    transform: rotateY(180deg);
+}
+
+#parent:hover{
+   transform: rotateY(180deg);
+}

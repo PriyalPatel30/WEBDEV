@@ -1,0 +1,37 @@
+#main{
+    height: 200px;
+    width: 700px;
+    background-color: rgb(65, 175, 218);
+    display: flex;
+    margin-top: 250px;
+    margin-left: 400px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* #child{
+
+    justify-content: center; */
+    /* align-items: center;
+} */
+
+
+#child p{
+    font-size: small;
+}
+
+div button{
+    height: 40px;
+    width: 111px;
+    background-color: orange;
+    color: white;
+    border: 0px solid white;
+    border-radius: 5px;
+    font-size: medium;
+    /* margin-left: 300px; */
+
+}
