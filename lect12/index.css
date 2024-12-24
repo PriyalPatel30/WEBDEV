@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name: yeshu;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+div:hover{
+    animation-direction: alternate;
+}
+
+@keyframes yeshu{
+    0%{
+        background-color: chartreuse;
+    }
+
+    50%{
+        background-color: palevioletred;
+        height: 300px;
+        width: 700px;
+        border-radius: 50%;
+    }
+
+
+    75%{
+        background-color: black;
+    } 
+
+    100%{
+        background-color: chocolate;
+        width: 100vw;
+        height: 100vh;
+    }
+}

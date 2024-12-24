@@ -1,0 +1,34 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border:1px solid black;
+    /* display: flex; */
+    margin: auto;
+    /* background-color: rgb(217, 110, 131); */
+    background: linear-gradient( tan,red,teal);
+    animation-name: bounce;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-duration: 800ms;
+    animation-timing-function: ease-in;
+    
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+@keyframes bounce{
+    
+    0%{
+        transform: translateY(0vh) ;
+    }
+
+
+    100%{
+        transform: translateY(70vh) rotate(360deg);
+    }
+}

@@ -1,4 +1,4 @@
-#body{
+body{
     perspective: 900px;
 }
 
@@ -17,27 +17,27 @@
     
 }
 
-
 #child1
 {
+   
     backface-visibility: hidden;
+ 
+}
+
+
+#child1, #child2{
+    position: absolute;
 }
    
 
-#child1 img{
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    z-index: 1;
-   
-}
+
+
+
 
 #child2{
-    height: 300px;
-    width: 300px;
-    background-color: coral;
-    position:  absolute;
-    
+ 
+    /* z-index: 1; */
+
     transform: rotateY(180deg);
 }
 
