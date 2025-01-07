@@ -1,0 +1,111 @@
+#main{
+    height: 60px;
+    background-color: papayawhip;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+
+#sub{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size:xx-large;
+}
+
+
+
+
+#one{
+    height: 85px;
+    width: 80vw;
+    margin:auto;
+    position: relative;
+    background-color: rgb(163, 163, 172);
+    border-radius: 10px;
+}
+
+h2{
+    color: purple;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+}
+
+p{
+    position: absolute;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 3px;
+    margin-left: 25px;
+}
+
+#two{
+    border: 1.5px solid white;
+    height: 90vh;
+    width: 75vw;
+    margin:12px auto;
+    margin-left: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    /* grid-template-rows: 350px 350px 350px; */
+    grid-gap: 20px;    
+}
+
+#two img{
+    position: relative;
+    height: 250px;
+    width: 350px;
+}
+
+#two img:hover{
+    transform: scale(1);
+    opacity: 50%;
+    border-radius: 10px;
+}
+
+#img1:hover{
+    height:250px ;
+    width: 350px;
+    background-color: rgb(177, 156, 124);
+}
+
+#img2:hover{
+    height:250px ;
+    width: 350px;
+    background-color:green;
+}
+
+#img3:hover{
+    height:250px ;
+    width: 350px;
+    background-color:red;
+}
+
+#img4:hover{
+    height:250px ;
+    width: 350px;
+    background-color:skyblue;
+}
+
+#img5:hover{
+    height:250px ;
+    width: 350px;
+    background-color:blue;
+}
+
+#two div i{
+    transform: scale(0);
+    position: relative;
+    bottom: 125px;
+    left: 50%;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+    color: white;
+}
+
+#two div:hover i{
+    transform: scale(2.2);
+
+}

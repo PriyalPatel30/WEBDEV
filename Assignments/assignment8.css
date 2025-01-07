@@ -1,24 +1,44 @@
-div{
-    height: 200px;
-    width: 200px;
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(63, 186, 184),rgb(255, 255, 255),rgba(255, 255, 255, 0.748));
+}
+
+#cloud{
+    height: 35%;
+    width: 25%;
+    position: absolute;
+    bottom: 530px;
+    left: 0;
+    z-index: -1;
+    animation: moveCloud 20s linear infinite;
+}
+
+@keyframes moveCloud {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100vw); /* Move the sky 100% of the viewport width */
+    }
+}
+
+#sun{
+    height: 180px;
+    width: 180px; 
+    
     border-radius: 50%;
-    border:1px solid black;
-    /* display: flex; */
+    /* border:1px solid wheat; */
+    position: absolute;
     margin: auto;
-    /* background-color: rgb(217, 110, 131); */
-    background: linear-gradient( tan,red,teal);
+    left: 370px;
+    background: linear-gradient( red,orange,yellow);
     animation-name: bounce;
     animation-iteration-count:infinite;
     animation-direction: alternate;
-    animation-duration: 800ms;
+    animation-duration: 7s;
     animation-timing-function: ease-in;
-    
-}
-
-img{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+    z-index: 0;
 }
 
 @keyframes bounce{
@@ -27,8 +47,52 @@ img{
         transform: translateY(0vh) ;
     }
 
-
     100%{
-        transform: translateY(70vh) rotate(360deg);
+        transform: translateY(40vh) ;
     }
 }
+
+
+/* #cbg{
+    width: 100vw;
+    animation-name:moove;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 15s;
+    animation-timing-function:ease-in;
+    z-index: 2;
+} */
+
+/* @keyframes moove{
+    0%{
+        transform: translateX(0vw);
+    }
+
+    50%{
+        transform: translateX(40vw);
+    }
+
+    100%{
+        transform: translateX(75vw);
+    }
+} */
+
+/* #cloud{
+    
+    height:225px;
+    width:300px;
+    bottom: 550px;
+    right: 0px;
+    position: absolute;
+    
+} */
+
+#mountain{
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: relative;
+    
+}
+
+

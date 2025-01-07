@@ -6,8 +6,24 @@
     box-shadow: 5px 5px 30px grey;
 }
 
+@media screen and (max-width:400px){
+    #parent{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #child2{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+}
+
 #child1 {
-    display: flexbox;
+    display: flex;
     width: 450px;
     position: relative;
     flex-direction: row;
@@ -16,10 +32,9 @@
 }
 
 #child1 h3{
-    display: flexbox;
+    display: flex;
     position: absolute;
-    left: 5%;    
-
+    left: 5%;  
 }
 
 #child2{
@@ -28,9 +43,24 @@
     width: 500px;
     justify-content: space-around;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#one{
     color: aliceblue;
 }
 
+#two{
+    color: aliceblue;
+}
+
+#three{
+    color: aliceblue;
+}
+
+#four{
+    color: aliceblue;
+}
 
 #child3{
     display: flex;

@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+#one{
+        height: 100px;
+        width: 100px; 
+        border-radius: 50%;
+        border:1px solid wheat;
+        position: absolute;
+        background: linear-gradient( red,orange,yellow);
+        animation-name:One;
+        animation-iteration-count:infinite;
+        animation-direction: alternate;
+        animation-duration: 1500ms;
+        animation-timing-function: ease-in;
+    }
+    @keyframes One{
+        0%{
+            transform: translate(0vw,0vh) ;
+        }
+    
+        100%{
+            transform: translate(80vw,80vh) ;
+        }
+    }
+
+    #two{
+        height: 100px;
+        width: 100px; 
+        border-radius: 50%;
+        border:1px solid wheat;
+        position: absolute;
+        background: linear-gradient(rgb(160, 255, 160),rgb(56, 125, 56),rgb(29, 174, 29));
+        animation-name:Two;
+        animation-iteration-count:infinite;
+        animation-direction: alternate;
+        animation-duration: 1500ms;
+        animation-timing-function: ease-in;
+    }
+
+    @keyframes Two{
+        0%{
+            transform: translate(100vw,0);
+        }
+
+        100%{
+            transform: translate(10vw,90vh);
+        }
+    }
+
+    #three{
+        height: 100px;
+        width: 100px; 
+        border-radius: 50%;
+        border:1px solid wheat;
+        position: absolute;
+        background: linear-gradient(rgb(81, 34, 34),rgb(103, 90, 64),rgb(187, 187, 111));
+        animation-name:Three;
+        animation-iteration-count:infinite;
+        animation-direction: alternate;
+        animation-duration: 1500ms;
+        animation-timing-function: ease-in;
+    }
+
+    @keyframes Three{
+        0%{
+            transform: translate(60vh,10vw);
+
+        }
+
+        100%{
+            transform: translate(-50vw,100vh);
+        }
+    }

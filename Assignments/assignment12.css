@@ -1,0 +1,29 @@
+.main{
+    border: 1.5px solid black;
+    height: 800px;
+    width: 600px;
+    margin: 12px auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    
+    /* grid-auto-flow: column; */
+    /* grid-auto-flow: row; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 100px 100px, rgba(0, 0, 0, 0.12) 0px -65px 30px, rgba(0, 0, 0, 0.12) 0px 50px 50px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.one{
+    border: 0.5px solid rgb(39, 37, 37);
+}
+
+.one:hover{
+    transform: scale(1.1);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+
