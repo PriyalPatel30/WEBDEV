@@ -1,0 +1,26 @@
+#img{
+    /* background-image: url(https://images.unsplash.com/photo-1736025254639-803df21d0a73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0MHx8fGVufDB8fHx8fA%3D%3D); */
+    height: 500px;
+    width:500px;
+    /* border: 5px solid aliceblue ;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size:20% 30% ;
+    background-size: contain;
+    background-size: cover; */
+
+
+    border: 5px solid aliceblue;
+    /* background: linear-gradient(rgb(183, 176, 183),(palevioletred),rgb(136, 33, 136)); */
+    /* background: linear-gradient(to right, palevioletred,rgb(136, 33, 136)); */
+    /* background: linear-gradient(to bottom, palevioletred,rgb(136, 33, 136)); */
+    /* background: radial-gradient(palevioletred,rgb(136, 33, 136)); */
+    /* background: radial-gradient(ellipse,rgb(183, 176, 183),palevioletred,rgb(136, 33, 136)); */
+    /* background: radial-gradient(circle,rgb(183, 176, 183),palevioletred,rgb(136, 33, 136)); */
+    /* background: conic-gradient(from 45deg,rgb(183, 176, 183),palevioletred,rgb(136, 33, 136)); */
+    /* background: conic-gradient(from 0deg at 50% 50%,rgb(183, 176, 183),palevioletred,rgb(136, 33, 136)); */
+    /* background: linear-gradient(to right, palevioletred,rgb(136, 33, 136),transparent); */
+    /* background: linear-gradient(to left, palevioletred,rgb(136, 33, 136),transparent); */
+     /* background: repeating-linear-gradient(to right, rgb(183, 176, 183),(palevioletred) 10%,rgb(136, 33, 136) 20%); */
+
+}
