@@ -1,0 +1,119 @@
+body{
+    position: relative;
+}
+#parenttt{
+    height: 150vh;
+    width: 100vw;
+    border: 5px solid black;
+    background: linear-gradient(to right bottom, rgb(116, 116, 146),rgb(171, 226, 236),pink);
+    /* position: relative; */
+}
+
+#main{
+    position: absolute;
+    height: 85%;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    /* width: 500px; */
+    justify-content: space-evenly;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+
+#stablo{
+    margin-top: -8px;
+    font-family:cursive;
+    /* font-style: italic; */
+    font-size:xx-large;
+    font-family: 'Brush Script MT', cursive;
+
+}
+
+
+
+h1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 30px;
+}
+
+#tagline{
+    position: absolute;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 40%;
+    margin-top: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#grid-div{
+    /* position: absolute; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows:320px 320px;
+    /* height: 90%;
+    width: 80%; */
+    margin-top: 150px;
+    margin-left: 200px;
+    grid: gap 10px;
+
+    
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#grid-div p{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: Tahoma, Verdana, sans-serif;
+
+
+}
+
+#one1{
+    
+    color: red;
+}
+#two{
+    
+    color: blueviolet;
+}
+#three{
+    color: palevioletred;
+}
+#four{
+    color: red;
+}
+#five{
+    color: aqua;
+}
+#six{
+    color: goldenrod;
+}
+
+h4{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-top: 40px; */
+    /* font-size:small; */
+    margin-left: 5px;
+    margin-bottom: auto;
+}
+
+/* #test{
+    font-family: cursive;
+} */
