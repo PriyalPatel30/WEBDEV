@@ -50,6 +50,7 @@
 // }
 
 // Nesting if else
+
 // let attendance = 67
 // let marks = 50
 // if (attendance>70 && marks>75) {
@@ -84,8 +85,8 @@
 // student.age=40    // updating age here
 // console.log(student.age);
 
-let a ={name:"pp"}
-// let b ={name:"pp"}
+// let a ={name:"pp"}
+// // let b ={name:"pp"}
 
-let b=a;  // here a is assigned into b so both are equal and gives true
-console.log(b==a);
+// let b=a;  // here a is assigned into b so both are equal and gives true
+// console.log(b==a);
