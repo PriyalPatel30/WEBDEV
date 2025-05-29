@@ -44,6 +44,10 @@
 
 
         //      REDUCE FUNCTION
+        // Syntax
+        // array.reduce(function(total, currentValue, currentIndex, arr), initialValue) => a,b,c,d points respectively
+
+        // => returns a single value, does not change the original array
         // => same as filter,has 4 parameters by default
         // => value of first parameter could be chnged by giving manually in return type
         // eg: given 10 here so first 10 then sum of rest
